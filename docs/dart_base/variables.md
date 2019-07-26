@@ -66,7 +66,7 @@ Si vous avez ce message alors félicitation. Votre code a été exécuté avec s
 
 Les variables permettent d'associer une valeur ou une chose à un nom. Dans le langage informatique, c'est une référence à une adresse mémoire. Ce nom permettra plus tard d'accéder à cette valeur et même de la modifier.
 
-Le nom d'une variable obéit à des impératifs ou règles changeant selon les langages. Toutefois, une règle absolue est qu’un nom de variable peut comporter des lettres et des chiffres, mais qu’il exclut la plupart des signes de ponctuation, en particulier les espaces. Une variable peut aussi commencer par ou comporter des underscore **_** . Mais une variable qui commence par un underscore a une signification particulière que nous serons amenés à voir plus tard.
+Le nom d'une variable obéit à des impératifs ou règles changeant selon les langages. Toutefois, une règle absolue est qu’un nom de variable peut comporter des lettres et des chiffres, mais qu’il exclut la plupart des signes de ponctuation, en particulier les espaces. Une variable peut aussi commencer par ou comporter des underscores **_** . Mais une variable qui commence par un underscore a une signification particulière que nous serons amenés à voir plus tard.
 
 
 ## Déclaration d'une variable
@@ -85,7 +85,7 @@ Example
 var nom = 'Jean Luc';
 var age = 16;
 var isPremium = true;
-var langages = ['Python', 'Javascript', 'Java', 'Kotlin']
+var langages = ['Python', 'Javascript', 'Java', 'Kotlin'];
 ```
 
 Il est strictement interdit de declarer des variables ayant le même nom. C'est une erreur qui empèchera votre programme d' ètre exectué.
