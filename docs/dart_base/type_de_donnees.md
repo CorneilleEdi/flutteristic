@@ -70,11 +70,9 @@ String animal = "Chien";
 String marque = 'ASUS';
 ```
 
+Si votre chaîne de caractères contient des griffes **'**, vous devez alors utiliser deux griffes **" "** pour créer votre chaîne de caractères ou faire une échappe des griffes **'** contenues dans votre chaînes de caractères.
 
-
-Si votre chaîne de caractères contient des griffes, vous devez alors utiliser deux griffes **" "** ou faire une échappe des griffes contenues dans  votre chaînes de caractères.
-
-Pour échapper la griffe, il va falloir le précéder d'un back slash **\ **
+Pour échapper la griffe, il va falloir le précéder d'un back slash **\ **.
 
 ```dart
 String phrase1 = "l'efficacité de Dart";
@@ -84,11 +82,11 @@ String phrase2 = "l\'efficacité de Dart";
 L'opérateur d'addition **+** peut être utilisé pour concaténer des chaîne de caractères.
 
 ```dart
-String titre = "Les chaînes de" + "caractere"
+String titre = "Les chaînes de" + "caractere";
 //"Les chaînes de caractères"
 ```
 
-Pour créer une chaîne de caractères multiligne, utilisez une combinaison de trois griffes simples ou doubles ou la combinaison **\n** qui jouera le rôle d'un retour a la ligne
+Pour créer une chaîne de caractères multiligne, utilisez une combinaison de trois griffes simples ou doubles ou la combinaison **\n** qui jouera le rôle d'un retour a la ligne.
 
 ```dart
 String lorem = '''
@@ -96,7 +94,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Phasellus sodales dolor lacus, eu ullamcorper lorem varius eget
 ''';
 
-String elementum = "leo nec metus sagittis. \n et semper sem finibus"
+String elementum = "leo nec metus sagittis. \n et semper sem finibus";
 ```
 
 
@@ -113,7 +111,7 @@ Int permet de définir les nombres entiers entre -2e63 to 2e63 - 1.
 
 ```dart
 int solde = 450000;
-int un_million = 10e6 //10 exposant 6;
+int un_million = 10e6; //10 exposant 6;
 int negatif = -1;
 ```
 
@@ -123,7 +121,7 @@ Le type Double permet de définir les nombres décimaux.
 
 ```dart
 double pi = 3.14;
-double douze = 12 //Cette declartion convertira 12 en 12.0
+double douze = 12; //Cette declartion convertira 12 en 12.0
 ```
 
 
@@ -169,7 +167,7 @@ Pour préciser le type des éléments de la liste , nous utiliserons une syntaxe
 List<type de donnee> nom_de_la_variable = [elements];
 
 List<int> premiers = [2, 3, 5, 7, 11];
-List paires = [2, 4, 6, 8]
+List paires = [2, 4, 6, 8];
 List<String> smartphone = const ["iPhone", "Galaxy"];
 //le mot clé permet de definir la liste comme etant une liste invariable
 ```
@@ -222,7 +220,7 @@ Les Convertisseurs:
 
 - **toInt()** converti la valeur en un nombre entier
 - **toDouble()** converti la valeur en un nombre décimal
-- **toString()** converti la valeur en une chaîne de caractère
+- **toString()** converti la valeur en une chaîne de caractères
 - **toList()** converti la valeur en une liste
 - **toMap()** converti la valeur en un dictionnaire
 - **toSet()** converti la valeur en un ensemble
@@ -240,7 +238,7 @@ Les convertisseurs sont a utilises avec précaution.
 
 ## Plus sur les chaînes de caractères
 
-Il est possible de passer une variable directement dans une chaîne de caractère. Cette méthode a aussi pour avantage de permettre d'appliquer des opérations aux variables directement dans la chaîne de caractères.
+Il est possible de passer une variable directement dans une chaîne de caractères. Cette méthode a aussi pour avantage de permettre d'appliquer des opérations aux variables directement dans la chaîne de caractères.
 
 Pour cela , on passe le nom de la variable dans la chaîne de caractères précédé du signe **Dollars  $** .
 
