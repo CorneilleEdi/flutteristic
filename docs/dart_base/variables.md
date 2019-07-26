@@ -93,7 +93,7 @@ Il est strictement interdit de déclarer des variables ayant le même nom. C'est
 
 ## Les constantes
 
-Les constantes sont des variables qui, après leur déclaration ne peuvent pas être modifiées.
+Une constante est une variable dont l'état reste inchangé durant toute l'exécution du programme et dont la valeur ne peut être modifié par le programme une fois définie.
 
 > les constantes peuvent être utilisées pour stocker des valeurs comme des adresses URL, des chemins vers un fichier, des ID d'utilisateur.
 
