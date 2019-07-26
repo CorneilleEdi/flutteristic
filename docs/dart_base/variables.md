@@ -128,16 +128,16 @@ variable.dart
 {: .file-name}
 ```dart
 void main(){
-    const nom = "Steve Jobs"
-    var age = 50
+    const nom = "Steve Jobs";
+    var age = 50;
     
     //Affichage du nom et de l'age
     print(nom);
-    print(age)
+    print(age);
 }
 ```
 
-la fonction **Print** permet d'afficher le message qui lui est passé en paramètre dans la console.
+la fonction **Print** permet d'afficher le méssage qui lui est passé en paramètre dans la console.
 {:.tip .tip-warning }
 
 output

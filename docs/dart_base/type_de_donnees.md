@@ -67,7 +67,7 @@ Cette chaîne est alors passée entre des griffes. Il est possible d'utiliser un
 
 ```dart
 String animal = "Chien";
-String marque = 'ASUS'
+String marque = 'ASUS';
 ```
 
 
@@ -78,17 +78,17 @@ Pour échapper la griffe, il va falloir le précéder d'un back slash **\ **
 
 ```dart
 String phrase1 = "l'efficacité de Dart";
-String phrase2 = "l\'efficacité de Dart"
+String phrase2 = "l\'efficacité de Dart";
 ```
 
-L'opérateur d'addition **+** peut être utilisé pour concaténer des chaîne de caractère.
+L'opérateur d'addition **+** peut être utilisé pour concaténer des chaîne de caractères.
 
 ```dart
 String titre = "Les chaînes de" + "caractere"
 //"Les chaînes de caractères"
 ```
 
-Pour créer une chaîne de caractère multiligne, utilisez une combinaison de trois griffes simples ou doubles ou la combinaison **\n** qui jouera le rôle d'un retour a la ligne
+Pour créer une chaîne de caractères multiligne, utilisez une combinaison de trois griffes simples ou doubles ou la combinaison **\n** qui jouera le rôle d'un retour a la ligne
 
 ```dart
 String lorem = '''
