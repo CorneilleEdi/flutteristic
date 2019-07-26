@@ -88,7 +88,7 @@ var isPremium = true;
 var langages = ['Python', 'Javascript', 'Java', 'Kotlin'];
 ```
 
-Il est strictement interdit de declarer des variables ayant le même nom. C'est une erreur qui empèchera votre programme d' ètre exectué.
+Il est strictement interdit de déclarer des variables ayant le même nom. C'est une erreur qui empèchera votre programme d' ètre exectué.
 {: .tip .tip-danger}
 
 ## Les constantes
