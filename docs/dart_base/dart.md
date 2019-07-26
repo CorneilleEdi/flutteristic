@@ -9,7 +9,7 @@ nav_order: 3
 # Les bases du Langage Dart
 ![dart wallpaper]({{ site.baseurl }}/assets/images/dart_base/dart.jpg)
 
-Dans cette partie nous apprendrons à programmer dans le langage Dart. Nous apprendrons à utiliser des concepts de la programmation pour écrire des programmes afin de resoudre des tâche.
+Dans cette partie nous apprendrons à programmer dans le langage Dart. Nous apprendrons à utiliser des concepts de la programmation pour écrire des programmes afin de resoudre des tâches.
 
 ## Nous explorerons des concepts comme :
 
