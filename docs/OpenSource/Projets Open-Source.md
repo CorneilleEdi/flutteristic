@@ -6,9 +6,9 @@ permalink: /projets
 nav_order: 99
 ---
 
-# Quelques projects open source à checker sur Github
+# Quelques projets open source à checker sur Github
 Github permet de poster des projets Open Source et disponibles pour tous.
-Tous les projets sont libres et peuvent être téléchargés et executés.
+Tous les projets sont libres et peuvent être téléchargés et exécutés.
 Les étapes sont simples:
 
 Rendez vous sur **la page Github du projet**
@@ -17,7 +17,7 @@ Rendez vous sur **la page Github du projet**
 
 ![clone or download]({{ site.baseurl }}/assets/images/open/main/download.png)
 
-Ouvrez le pojet dans votre editeur de choix et tapez la commande suivante dans le dossier du projet 
+Ouvrez le pojet dans votre éditeur de choix et tapez la commande suivante dans le dossier du projet 
 ```terminal
 $ flutter pub get
 ```
