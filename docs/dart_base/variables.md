@@ -114,7 +114,7 @@ var langues = ['francais', 'Anglais', 'Espagnol'];
 
 
 
-Si vous essayez de changer une constante dans votre programme, cela causera un erreur.
+Si vous essayez de changer une constante dans votre programme, cela causera une erreur.
 {:.tip .tip-danger }
 
 ```
