@@ -242,7 +242,7 @@ Il est possible de passer une variable directement dans une chaîne de caractèr
 
 Pour cela , on passe le nom de la variable dans la chaîne de caractères précédé du signe **Dollars  $** .
 
-Pour effectuer une opération sur cette variable dans la chaîne de caractères  on passe le nom de  la variable dans  la chaîne entre **des accolades {   }**  précédé du signe **Dollars  $**
+Pour effectuer une opération sur cette variable dans la chaîne de caractères  on passe le nom de  la variable dans  la chaîne entre **des accolades {   }**  précédées  du signe **Dollars  $**
 
 
 
