@@ -27,7 +27,7 @@ Avant de commencer nous allons écrire un petit programme et exécuter pour s'as
 
 Les fichiers contenant du code écrit en Dart ont toujours l'extension **.dart**
 
-Dans votre éditeur de texte, copiez et collez le code suivant dans un fichier **main.dart**. (Vous pouvez appeler ce fichier autrement)
+Dans votre éditeur de texte, copiez et collez le code suivant dans un fichier **main.dart**. (Vous pouvez nommer ce fichier autrement)
 
 main.dart
 {: .file-name}
@@ -66,7 +66,7 @@ Si vous avez ce message alors félicitation. Votre code a été exécuté avec s
 
 Les variables permettent d'associer une valeur ou une chose à un nom. Dans le langage informatique, c'est une référence à une adresse mémoire. Ce nom permettra plus tard d'accéder à cette valeur et même de la modifier.
 
-Le nom d'une variable obéit à des impératifs ou règle changeant selon les langages. Toutefois, une règle absolue est qu’un nom de variable peut comporter des lettres et des chiffres, mais qu’il exclut la plupart des signes de ponctuation, en particulier les espaces. Une variable peut aussi commencer par ou comporter des underscore **_** . Mais une variable qui commence par un underscore a une signification particulière que nous serons amenés à voir plus tard.
+Le nom d'une variable obéit à des impératifs ou règles changeant selon les langages. Toutefois, une règle absolue est qu’un nom de variable peut comporter des lettres et des chiffres, mais qu’il exclut la plupart des signes de ponctuation, en particulier les espaces. Une variable peut aussi commencer par ou comporter des underscore **_** . Mais une variable qui commence par un underscore a une signification particulière que nous serons amenés à voir plus tard.
 
 
 ## Déclaration d'une variable
