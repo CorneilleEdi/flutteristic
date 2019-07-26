@@ -20,4 +20,4 @@ Dans cette partie nous apprendrons à programmer dans le langage Dart. Nous appr
 - les fonctions
 - les collections
 - les librairies intégrées
-- input/output et les fichiers
+- les entrées / sorties  et les fichiers
