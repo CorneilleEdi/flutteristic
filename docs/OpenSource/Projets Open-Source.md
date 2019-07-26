@@ -17,7 +17,7 @@ Rendez vous sur **la page Github du projet**
 
 ![clone or download]({{ site.baseurl }}/assets/images/open/main/download.png)
 
-Ouvrez le pojet dans votre éditeur de choix et tapez la commande suivante dans le dossier du projet 
+Ouvrez le pojet dans votre éditeur de choix et tapez la commande suivante dans le dossier du projet. 
 ```terminal
 $ flutter pub get
 ```

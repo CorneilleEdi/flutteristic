@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 03 - Les opérateurs
-description : Les opérateurs et leur signification en Dart
+description : Les opérateurs et leurs significations en Dart
 parent : Dart - les bases
 categories : [dart, dart-base]
 nav_order : 4
