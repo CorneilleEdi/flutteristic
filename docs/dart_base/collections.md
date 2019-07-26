@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 08 - Les collections
-description : Les listes, ensembles et les dictionnaires en Dart. La syntaxe de definition et de manipulation de chaque collection
+description : Les listes, ensembles et  dictionnaires en Dart. La syntaxe de definition et de manipulation de chaque collection
 parent : Dart - les bases
 categories : [dart, dart-base]
 nav_order : 9
