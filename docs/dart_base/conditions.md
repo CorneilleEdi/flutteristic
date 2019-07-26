@@ -51,7 +51,7 @@ Syntaxe pour créer une condition simple avec **if**
 
 ```dart
 if(condition){
-    expression
+    expression;
 }
 ```
 
@@ -85,9 +85,9 @@ Syntaxe pour créer une condition alternative  avec **if ....  else**
 
 ```dart
 if(condition){
-    expression 1
+    expression 1;
 }else {
-    expression 2
+    expression 2;
 }
 ```
 
@@ -128,13 +128,13 @@ Syntaxe pour créer une condition généralisée avec **if ....  else .... if**
 if(condition 1){
     expression 1
 }else if(condition 1){
-    expression 1
+    expression 1;
 }else if(condition 2){
-    expression 2
+    expression 2;
 }else if(condition 3){
-    expression 3
+    expression 3;
 }else {
-    expression 4
+    expression 4;
 }
 ```
 
