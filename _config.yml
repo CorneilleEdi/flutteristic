@@ -1,0 +1,33 @@
+#Quelques informations
+title: Flutteristic
+email: corneilleayao@gmail.com
+description: >- 
+  Tutoriels simples, detaillés et complets sur Flutter et le langage Dart
+baseurl: "" 
+url: "https://flutteristic.dev"
+mainurl : "https://flutteristic.dev"
+
+
+# Mes réglages
+markdown: kramdown
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+
+color_scheme: "dark"
+
+
+aux_links:
+    "Github":
+      - "//github.com/CorneilleEdi"
+    "Twitter":
+      - "//twitter.com/corneilleedi"
+
+
+search_enabled: true
+
+
+ga_tracking: UA-143745020-1

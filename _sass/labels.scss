@@ -1,0 +1,57 @@
+//
+// Labels (not the form kind)
+//
+
+.label,
+.label-blue {
+  display: inline-block;
+  padding-top: 0.16em;
+  padding-right: 0.42em;
+  padding-bottom: 0.16em;
+  padding-left: 0.42em;
+  margin-right: $sp-2;
+  color: $white;
+  vertical-align: middle;
+  text-align: center;
+  background-color: $blue-100;
+  @include fs-5;
+  border-radius: $border-radius;
+}
+
+.label-green , .label-android,.label-open-source {
+  background-color: $green-400;
+}
+
+.label-purple , .label-ui {
+  background-color: $purple-100;
+}
+
+.label-red, .label-widget {
+  background-color: $red-200;
+}
+
+.label-yellow,.label-development,.label-provider {
+  color: $grey-dk-200;
+  background-color: $yellow-200;
+}
+
+.label-blue,.label-dart {
+  background-color: $blue-300;
+}
+
+
+
+
+.image-description {
+  font-size: 1em;
+  background: $code-background-color;
+  padding: 0.5em;
+  padding-right: 1em;
+  padding-left: 1em;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  font-weight: 500;
+  color: #dee2f7;
+  margin: 0;
+}

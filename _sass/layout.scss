@@ -1,0 +1,236 @@
+//
+// The basic two column layout
+//
+
+.page-wrap {
+  @include mq(md) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+}
+
+.side-bar {
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: $gutter-spacing-sm;
+  padding-bottom: $gutter-spacing-sm;
+  background-color: $sidebar-color;
+  box-shadow: $dark-box-shadow;
+
+  @include mq(md) {
+    flex-wrap: nowrap;
+    position: absolute;
+    width: $nav-width + 16px;
+    height: 100%;
+    padding-top: $gutter-spacing * 2;
+    padding-bottom: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  @include mq(lg) {
+    width: calc((100% - #{$nav-width + $content-width}) / 2);
+    min-width: $nav-width;
+  }
+}
+
+.main-content-wrap {
+  @include mq(md) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}
+
+.main-content {
+  padding-top: $gutter-spacing-sm;
+  @include container;
+
+  @include mq(md) {
+    position: relative;
+    max-width: $content-width;
+    padding-top: $gutter-spacing;
+    padding-bottom: $gutter-spacing;
+    padding-left: $gutter-spacing ;
+    margin-left: $nav-width;
+  }
+
+  @include mq(lg) {
+    padding-left: $gutter-spacing;
+    margin-left: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+  }
+
+ 
+
+  
+}
+
+.js-main-content:focus {
+  outline: none;
+}
+
+.page-header {
+  background-color: $sidebar-color;
+  box-shadow: $dark-box-shadow;
+
+  @include mq(md) {
+    background-color: $body-background-color;
+  }
+
+  .main-content {
+    padding-top: 0;
+
+    @include mq(md) {
+      display: flex;
+      justify-content: flex-end;
+      height: 60px;
+      padding-top: $sp-4;
+      padding-bottom: $sp-4;
+    }
+  }
+}
+
+.navigation,
+.site-title,
+.site-footer {
+  @include container;
+  width: 100%;
+
+  @include mq(lg) {
+    width: 100%;
+  }
+}
+
+.navigation {
+  @include mq(md) {
+    padding-top: $sp-4;
+    overflow-y: auto;
+    flex: 1 1 auto;
+  }
+}
+
+// stylelint-disable selector-max-type
+
+body {
+  position: relative;
+  padding-bottom: $sp-10;
+
+  @include mq(md) {
+    position: static;
+    padding-bottom: 0;
+  }
+}
+
+// stylelint-enable selector-max-type
+
+.site-footer {
+  position: absolute;
+  bottom: 0;
+  padding-top: $sp-4;
+  padding-bottom: $sp-4;
+
+  @include mq(md) {
+    position: static;
+    align-self: flex-start;
+    justify-self: start;
+    background-color: $sidebar-color;
+  }
+}
+
+.tip {
+  padding: 12px 24px 12px 24px;
+  margin: 2em 0;
+  background-color: $code-background-color;
+  border-left-width: 4px;
+  border-left-style: solid;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    top: 14px;
+    left: -12px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+  }
+}
+
+.tip-success {
+  &:before {
+    content: "!";
+  background-color:#42b983;
+  }
+  border-left-color: #42b983;
+}
+
+.tip-danger {
+  &:before {
+    content: "!";
+  background-color:#f66;
+  }
+  border-left-color: #f66;
+}
+
+.tip-warning {
+  &:before {
+    content: "!";
+  background-color:#fa8142;
+  }
+  border-left-color: #fa8142;
+}
+
+.tip-simple {
+  
+  border-left-color: $link-color;
+}
+
+
+
+strong {
+  color: #42b983;
+}
+
+.text-error {
+  color: $red-300;
+}
+
+.parent-content-list {
+  list-style: none;
+  .parent-content {
+    list-style: none;
+    a {
+      font-size: 1.5em;
+    }
+  }
+}
+
+blockquote {
+  margin-top: 1em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $code-background-color;
+  p {
+    margin: 1em;
+  }
+}
+
+.underline {
+  text-decoration: underline
+}
