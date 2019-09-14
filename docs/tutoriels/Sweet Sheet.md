@@ -9,7 +9,11 @@ parent : Tutoriels
 
 # Sweet Sheet
 
+
 ![Image principale]({{ site.baseurl }}/assets/images/tuto/sheet_screens/sweet_sheet.jpg)
+
+
+[Video sur Youtube](https://youtu.be/w6ayFtHbl-c){: target="_blank" .btn .btn-red }
 
 Avec les smartphones devenant de plus en plus grand, il est difficile de garder une bonne ergonomie dans une application mobile.
 
@@ -29,6 +33,7 @@ Sweet sheet warning
 ![bottom sheet waning]({{ site.baseurl }}/assets/images/tuto/sheet_screens/crop_sweet_sheet.png)
 
 [Code source de l'application sur Github](https://github.com/CorneilleEdi/Sweet-Sheet){: target="_blank" .btn .btn-primary }
+
 
 ## Création et setup du projet
 
@@ -317,16 +322,20 @@ le Container principal contient ds boutons qui affichent chacun des feuilles de 
 
 ```dart
 LargeButton(
-              context: context,
-              text: 'Simple dialogue',
-              onclick: () {
-                modal.showSweetBottomSheet(
-                  context: context,
-                  title: "Lorem Ipsum",
-                  description:
-                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. no you condimentum finibus ut ut lorem. Ut pellentesque mauris ut arcu rutrum, at tincidunt arcu tincidunt ',
-                  type: BottomSheetType.NICE,
-                  actions: [
+      context: context,
+      text: 'Simple dialogue',
+      onclick: () {
+          modal.showSweetBottomSheet(
+            context: context,
+            title: "Lorem Ipsum",
+            description:
+                      'Lorem ipsum dolor sit amet, consectetur 
+                      adipiscing elit. no you condimentum 
+                      finibus ut ut lorem. Ut pellentesque 
+                      mauris ut arcu rutrum, 
+                      at tincidunt arcu tincidunt ',
+            type: BottomSheetType.NICE,
+              actions: [
                     FlatButton(
                       onPressed: () {
                         Navigator.of(context).pop(); // Ferme le bottom sheet
@@ -390,7 +399,10 @@ class _HomePageState extends State<HomePage> {
                   context: context,
                   title: "Lorem Ipsum",
                   description:
-                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. no you condimentum finibus ut ut lorem. Ut pellentesque mauris ut arcu rutrum, at tincidunt arcu tincidunt ',
+                      'Lorem ipsum dolor sit amet, consectetur 
+                      adipiscing elit. no you condimentum 
+                      finibus ut ut lorem.Ut pellentesque mauris ut arcu rutrum, 
+                      at tincidunt arcu tincidunt ',
                   type: BottomSheetType.NICE,
                   actions: [
                     FlatButton(
@@ -454,3 +466,6 @@ Cool, nous avons fini notre application et le résultat est magnifique.
 | SUCCESS        | NICE       | DANGER    |
 |:-------------|:------------------|:------|
 | ![SUCCESS]({{ site.baseurl }}/assets/images/tuto/sheet_screens/success.png)         | ![NICE]({{ site.baseurl }}/assets/images/tuto/sheet_screens/nice.png) | ![DANGER]({{ site.baseurl }}/assets/images/tuto/sheet_screens/danger.png)   |
+
+
+[Video sur Youtube](https://youtu.be/w6ayFtHbl-c){: target="_blank" .btn .btn-red }

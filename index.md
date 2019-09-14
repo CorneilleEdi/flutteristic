@@ -38,8 +38,6 @@ Retrouver les tutoriels sur **Dart** et **Flutter** sur La chaine Youtube **Flut
 
 [Flutteristic sur Youtube](https://www.youtube.com/channel/UCS-e9mr1HlTkPy2O_3JbQfg){: .btn .btn-red }
 
-Les vidéos seront bientôt disponibles😉.
-{: .tip .tip-success}
 
 
 Flutteristic est une plateforme libre ,non lucrative et indépendante. Vous pouvez souternir la plateforme **Flutteristic** en faisant une donation .
