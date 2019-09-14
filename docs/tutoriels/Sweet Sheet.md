@@ -13,7 +13,7 @@ parent : Tutoriels
 
 Avec les smartphones devenant de plus en plus grand, il est difficile de garder une bonne ergonomie dans une application mobile.
 
-Pour plus facilement engager l'interaction de l'utilisateur avec l'application Google a ajouté aux composants du [Material Design ](https://material.io/) le [Bottom sheet](https://material.io/components/sheets-bottom/) ou feuilles de fond.
+Pour plus facilement engager l'interaction de l'utilisateur avec l'application Google a ajouté aux composants du [Material Design ](https://material.io/){: target="_blank"} le [Bottom sheet](https://material.io/components/sheets-bottom/){: target="_blank"} ou feuilles de fond.
 
 >Les feuilles de fond sont des surfaces contenant du contenu supplémentaire ancré au bas de l'écran.
 
@@ -21,12 +21,14 @@ Bottom Sheet
 {: .image-description}
 ![bottom sheet from www.material.io]({{ site.baseurl }}/assets/images/tuto/sheet_screens/bottom-sheet.png)
 
-Dans ce tutoriel nous allons créer des Bottom Sheet avec de très beaux designs pour remplacer [les dialogues](https://material.io/components/dialogs/).
+Dans ce tutoriel nous allons créer des Bottom Sheet avec de très beaux designs pour remplacer [les dialogues](https://material.io/components/dialogs/){: target="_blank"}.
 
 
 Sweet sheet warning
 {: .image-description}
 ![bottom sheet waning]({{ site.baseurl }}/assets/images/tuto/sheet_screens/crop_sweet_sheet.png)
+
+[Code source de l'application sur Github](https://github.com/CorneilleEdi/Sweet-Sheet){: target="_blank" .btn .btn-primary }
 
 ## Création et setup du projet
 
